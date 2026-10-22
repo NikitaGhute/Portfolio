@@ -6,24 +6,31 @@
         <meta name="description" content="this is my personal portfolio page">
         <meta name="keyword" content="portfolio, employee, information">
         <meta name="viewport" content="width = device-width, initial-scale=1.0">
-        <src href="./css/style.css"></src>lllllp
+        <link rel="stylesheet" href="./css/style.css"></link>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
     <body>
       <main>
-        <header class="header float">
+        <header class="header bg-white">
+            <nav class="max-w-7xl mx-auto px-10 h-16 flex items-center justify-between">
             <div class="logo">
                 <img src="./images/ng_logo.jpeg" width="80px" height="100px" alt="logo for image">
             </div>
-            <nav class="navbar">
-                <a herf="#" class="float-left">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-      </main>
+                <ul class="flex gap-6 flex-row">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="px-8 py-8">
+                <a href="#" class="inline-block font-semibold text-white bg-blue-600 border-2 border-blue-800 rounded-md shadow-md cursor-pointer hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 active:bg-blue-800 active:shadow-sm active:translate-y-0.5">
+                    Lets Talk
+                 </a>
+              </div>
+             </nav>
+         </header>
+       </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    </body>
-</html>
+     </body>
+  </html>

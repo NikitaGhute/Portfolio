@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.float{
-    display: flex;
+body{
+    margin:30px 20px;
+    background-color: #ccc;
 }
