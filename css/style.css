@@ -1,8 +1,16 @@
 
 body{
-    margin:30px 150px;
+  font-family: "Asap Sharp", sans-serif;
+  font-style: normal;
+      margin:30px 150px;
     background-color: #eef7f6;
 }
+/* p{
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-variation-settings:
+    "wdth" 100;
+} */
 .nav-link{
     color:#474646;
 }
@@ -16,8 +24,6 @@ body{
     color:#474646;
     border-bottom: 2px solid #000;
 }
-
-
  .button {
     width: 145px;
     height: 42px;
@@ -44,3 +50,57 @@ body{
         color: #000;
       }
     }
+
+/* typewriter */
+.core-id p{
+  font-size:1.5rem;
+  border-right: .15em solid rgb(237, 235, 230); 
+  width: 0;
+  white-space: nowrap; 
+  overflow: visible;
+}
+.core-id .type1{
+      /* border-right: .15em solid orange; */
+      animation: 
+        typing 1s steps(25, end) forwards; 
+  }
+.core-id .type2{
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 1s;
+  }
+.core-id .type3{
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 2s;
+  }
+.core-id .type4{
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 3s;
+  }
+.core-id .type5{
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 4s;
+  }
+
+  .core-id .type6{
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 5s;
+  }
+.core-id .type7{
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 6s;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: transparent; }
+  }
