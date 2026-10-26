@@ -52,12 +52,16 @@ body{
     }
 
 /* typewriter */
-.core-id p{
-  font-size:1.5rem;
-  border-right: .15em solid rgb(237, 235, 230); 
-  width: 0;
-  white-space: nowrap; 
-  overflow: visible;
+.core-id p {
+      font-size:1.0rem;
+      /* border-right: .15em solid rgb(237, 235, 230);  */
+      width: 0;
+      white-space: nowrap; 
+      overflow: hidden;
+      color:#106d80;
+}
+.core-id p.typing{
+       border-right: .15em solid rgb(237, 235, 230); 
 }
 .core-id .type1{
       /* border-right: .15em solid orange; */
