@@ -110,7 +110,7 @@ body{
   }
 
 .detail_btn{
-  background-color: #0078d0;
+  background-color: #146f6f;
   border: 0;
   border-radius: 56px;
   color: #fff;
@@ -158,4 +158,8 @@ body{
 
 .my_journey h5{
   color: #106d80;
+}
+
+.card1{
+  border: 1px solid #000;
 }
