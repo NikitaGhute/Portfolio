@@ -13,6 +13,7 @@
             @import "tailwindcss";
         </style>
         <link rel="stylesheet" href="./css/style.css"></link>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <!-- goggle font -->
             <style>
@@ -110,24 +111,145 @@
               <div class="skills">
                 <div class="bg-white p-5 rounded-3xl mt-10">
                  <h1 class="text-6xl font-bold">Skill Set</h1>
+                 <!-- 1st row -->
                  <div class="grid grid-cols-3 pt-8 px-5 items-center">
-                    <div class="col-span-1 ml-8">
-                        <div class="card1">
-                             text here
+                    <!-- 1st card -->
+                    <div class="col-span-1 ml-8 mx-auto p-5">
+                          <div class="card_flip" ontouchstart="this.classList.toggle('hover');">
+                     <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card p-6">
+                                    <p>Languages and Core</p>
+                            </div>
                         </div>
-                    </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="mt-4 backside-title">
+                                    <p class="card-text p-4">HTML, CSS, JavaScript(ES6)</p>
+                                </div>
+                            </div>
+                          </div>
+                       </div>
+                     </div>
+                  </div>
 
-                    <div class="col-span-1 ml-8">
-                        <div class="card1"> text here </div>
-                    </div>
-                    <div class="col-span-1 ml-8">
-                      <div class="card1">text here</div>
-                    </div>
+                  <!-- 2nd card -->
+                   <div class="col-span-1 ml-8 mx-auto p-5">
+                          <div class="card_flip" ontouchstart="this.classList.toggle('hover');">
+                     <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card p-6">
+                              <p>Frontend Development</p>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="mt-4 backside-title">
+                                    <p class="card-text p-4">
+                                      React.js · Hooks · Redux
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                       </div>
+                     </div>
+                  </div>
+
+                  <!-- 3rd card -->
+                 <div class="col-span-1 ml-8 mx-auto p-5">
+                          <div class="card_flip" ontouchstart="this.classList.toggle('hover');">
+                     <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card p-6">
+                                <p>Web Concepts</p>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="mt-4 backside-title">
+                                   <p class="card-text p-4">DOM · Event Handling · Responsive Design</p>
+                                </div>
+                            </div>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
                  </div>
+
+                 <!-- 2nd row -->
+                                   <div class="grid grid-cols-3 pt-8 px-5 items-center">
+                    <!-- 1st card -->
+                    <div class="col-span-1 ml-8 mx-auto p-5">
+                          <div class="card_flip" ontouchstart="this.classList.toggle('hover');">
+                     <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card p-6">
+                                <p>API & Data Handling</p>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="mt-4 backside-title">
+                                    <p class="card-text p-4">REST API · Fetch · Axios · JSON</p>
+                                </div>
+                            </div>
+                          </div>
+                       </div>
+                     </div>
+                  </div>
+
+                  <!-- 2nd card -->
+                   <div class="col-span-1 ml-8 mx-auto p-5">
+                          <div class="card_flip" ontouchstart="this.classList.toggle('hover');">
+                     <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card p-6">
+                                    <p>UI & Styling</p>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="mt-4 backside-title">
+                                    <p class="card-text p-4">
+                                     Bootstrap · Tailwind · Material UI · Flexbox
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                       </div>
+                     </div>
+                  </div>
+
+                  <!-- 3rd card -->
+                 <div class="col-span-1 ml-8 mx-auto p-5">
+                          <div class="card_flip" ontouchstart="this.classList.toggle('hover');">
+                     <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card p-6">
+                                    <p>Tools & AI Assistance</p>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="mt-4 backside-title">
+                                    <p class="card-text p-4">Git · GitHub · Postman · VS Code · Copilot · Tabnine · ChatGPT · Claude · Cursor
+                                    </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+                   
               </div>
              </div>
        <script src="./js/script.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+       <script>
+        AOS.init();
+       </script>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
      </body>
   </html>
