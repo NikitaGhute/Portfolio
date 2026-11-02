@@ -159,7 +159,7 @@ body{
 .my_journey h5{
   color: #106d80;
 }
-.card p{
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
